@@ -1,0 +1,83 @@
+.cabecalho {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    justify-self: center;
+    margin: 20px 0;
+}
+
+.cabecalho div {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho button {
+    height: 50px;
+    margin-left: 15px;
+}
+
+.mostraMenu {
+    display: none;
+}
+
+.iconeClose {
+    display: none;
+}
+
+.logoImg {
+    display: none;
+}
+
+
+@media screen and (max-width: 1100px) {
+    
+    .cabecalho button {
+        margin-left: 0;
+    }
+
+    .cabecalho .containerFundoMeduMobile {
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        background-color: #5368dfee;
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        overflow: auto;
+    }
+
+    .cabecalho .containerMenu {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .cabecalho .containerMenu .cabecalhoMenuMobile {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .mostraMenu {
+        display: block;
+    }
+
+    .iconeClose {
+        display: block;
+    }
+
+    .logoImg {
+        display: block;
+        width: 180px;
+        height: 35px;
+    }
+    
+    
+}

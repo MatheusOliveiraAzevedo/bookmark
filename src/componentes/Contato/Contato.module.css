@@ -1,0 +1,133 @@
+.contato {
+    background-color: var(--Azul);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+    color: white;
+}
+
+.contato p {
+
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+.contato h2 {
+    font-weight: 500;
+    width: 30%;
+    text-align: center;
+}
+
+.contato .containerEmail {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 38%;
+    width: 40%;
+    height: auto;
+}
+
+.contato .containerEmail .inputEmail {
+    border-radius: 5px;
+    border: none;
+    height: 45px;
+    margin-right: 20px;
+    padding: 0 0 0 20px;
+    width: 100%;
+}
+.contato .inputEmail::placeholder {
+    color: var(--Cinza);
+}
+
+.contato .containerEmail button {
+    height: auto;
+    font-size: 14px;
+    box-shadow: none;
+    align-self: flex-start;
+
+}
+
+.containerErro {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Vermelho);
+    border-radius: 5px;
+    padding: 2px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.containerErro span {
+    padding: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--CinzaClaro);
+}
+
+.erro {
+    display: grid;
+    grid-template-columns: 1fr 10%;
+    background-color: white;
+    align-items: center;
+}
+
+
+.inputEmailErro:focus {
+    outline: none;
+}
+
+.containerSemErro {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 2px;
+    width: auto;
+    margin-right: 40px;
+}
+
+
+@media screen and (max-width:1100px) {
+
+    .contato {
+        width: 100%;
+    }
+
+    .contato h2 {
+        font-size: 28px;
+        width: 80%;
+    }
+
+    .contato .containerEmail {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+    
+    .contato .containerEmail .containerErro {
+        margin: 0 0 15px 0;
+        width: 100%;
+    }
+
+    
+    .contato .containerEmail .containerSemErro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 15px 0;
+        width: 100%;
+        border-radius: 5px;
+        max-width: 97%;
+    }
+    
+    .contato .containerEmail .containerSemErro .inputEmail {
+        border-radius: 5px;
+        height: 45px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .contato .containerEmail button {
+        width: 100%;
+    }
+}

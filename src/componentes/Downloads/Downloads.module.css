@@ -1,0 +1,51 @@
+.downloads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 85%;
+    margin: 60px 0;
+}
+
+.downloads .tituloDownloads {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.downloads .textoDownloads {
+    color: var(--Cinza);
+    font-size: 22px;
+    width: 50%;
+    text-align: center;
+}
+
+.downloads .containerNavegadores {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+    gap: 20px;
+}
+
+@media screen and (max-width:1100px) {
+    .downloads {
+        margin: 80px 0;
+        width: 90%;
+    }   
+
+    .downloads .tituloDownloads {
+        font-size: 28px;
+    }
+
+    .downloads .textoDownloads {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .downloads .containerNavegadores {
+        display: flex;
+        flex-direction: column;
+    }
+}

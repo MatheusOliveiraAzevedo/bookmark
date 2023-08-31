@@ -1,0 +1,66 @@
+.menu {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.menu .item {
+    list-style-type: none;
+    margin: 10px 20px;
+    color: var(--Cinza);
+}
+
+.menu .item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu .item a:hover {
+    color: var(--Vermelho);
+}
+
+.menuRodape .item {
+    color: white;
+}
+
+@media screen and (max-width:1100px) {
+
+
+    .containerNav {
+        display: flex;
+        width: 100vw;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menuRodape {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menuMobile {
+        display: flex;
+        text-align: center;
+        /* width: 100%; */
+        border-top: 0.5px solid white;
+    }
+
+    .menuMobile .item {
+        width: 80vw;
+        border-bottom: 0.5px solid white;
+        margin: 0;
+        padding: 30px 0;
+    }
+
+    .menuMobile .item a {
+        width: 100vw;
+        font-size: 25px;
+        color: white;
+        letter-spacing: 4px;
+    }
+}
+

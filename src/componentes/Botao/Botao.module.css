@@ -1,0 +1,75 @@
+.botao {
+    font-size: 16px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0px 5px 10px #e1e2e6;
+}
+
+.botaoCabecalho {
+    background-color: var(--Vermelho);
+    padding: 15px 35px;
+    letter-spacing: 1px;
+}
+
+.botaoCabecalho:hover {
+    background-color: white;
+    border: 2px solid var(--Vermelho);
+    color: var(--Vermelho);
+    cursor: pointer;
+}
+
+.botaoConteudo {
+    background-color: var(--Azul);
+    margin-right: 20px;
+    font-size: 16px;
+    padding: 20px 25px;
+}
+
+.botaoConteudo:hover {
+    background-color: white;
+    border: 2px solid var(--Azul);
+    color: var(--Azul);
+    cursor: pointer;
+}
+
+.botaoConteudo2 {
+    background-color: var(--CinzaClaro);
+    color: var(--Cinza);
+    font-size: 16px;
+    padding: 20px 25px;
+    margin-left: 20px;
+}
+
+.botaoConteudo2:hover {
+    background-color: white;
+    border: 2px solid var(--Cinza);
+    color: var(--Cinza);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+    .botaoConteudo {
+        font-size: 14px;
+        padding: 15px 20px;
+        margin: 0;
+    }
+
+    .botaoConteudo2 {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+
+    .botaoCabecalhoMobile {
+        background-color: inherit;
+        border: 2px solid white;
+        box-shadow: none;
+        width: 100%;
+        font-size: 20px;
+        margin-top: 25px;
+        /* padding: 20px 0; */
+    }
+}

@@ -1,0 +1,28 @@
+.containerMidias {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.containerMidias img {
+    margin: 0 10px;
+}
+
+.containerMidias img:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+    .midiaMenuMobile {
+        display: flex;
+        height: 60vh;
+        width: 30%;
+        position: relative;
+    }
+
+    .midiaMenuMobile {
+        position: relative;
+        bottom: 0;
+        padding: 40px;
+    }
+}

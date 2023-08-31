@@ -1,0 +1,67 @@
+.Card {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 20% auto auto;
+    width: 250px;
+}
+
+.Card1 {
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.Card2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.Card3 {
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.Card div {
+    margin-top: 30px ;
+    width: 100%;
+}
+
+.Card div button {
+    margin: 0;
+    width: 100%;
+}
+
+.Card p {
+    width: 100%;
+    color: var(--Cinza);
+    align-self: flex-start;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+    border-bottom: 5px dotted #d9dbe1;
+    border-spacing: 10px;
+}
+
+.Card h3 {
+    font-weight: 500;
+    align-self: center;
+}
+
+.Card img {
+    align-self: center;
+    width: 50%;
+}
+
+@media screen and (max-width:1100px) {
+    .Card {
+        align-self: center;
+        padding: 25px 20px;
+        box-shadow: 1px 15px 20px var(--CinzaClaro);
+        border-radius: 20px;
+        margin: 20px 0;
+    }
+
+    .Card img {
+        width: 40%;
+        margin: 20px 0 10px 0;
+    }
+}

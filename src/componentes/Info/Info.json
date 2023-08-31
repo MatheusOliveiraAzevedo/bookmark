@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "titulo": "Favoritos em um clique",
+        "texto": "Organize seu favorito que você gosta. Nossa interface simples de arrastar e soltar oferece controle total sobre como você gerencia seus sites favoritos.",
+        "imagem": "/images/illustration-features-tab-1.svg",
+        "altImg": "esboço de uma pagina web"
+    },
+    {
+        "id": "2",
+        "titulo": "Pesquisa inteligente",
+        "texto": "Nosso poderoso recurso de pesquisa ajudará você a encontrar sites salvos rapidamente. não há necessidade de vasculhar todos os seus favoritos.",
+        "imagem": "/images/illustration-features-tab-2.svg",
+        "altImg": "esboço de uma pagina web com uma lupa por cima"
+    },
+    {
+        "id": "3",
+        "titulo": "Compartilhe seus favoritos",
+        "texto": "Compartilhe facilmente seus favoritos e coleções com outras pessoas. Crie um link compartilhável que você pode enviar com o clique de um botão.",
+        "imagem": "/images/illustration-features-tab-3.svg",
+        "altImg": "esboço de uma pagina web com uma imagem de duas pessoas conversando"
+    }
+]

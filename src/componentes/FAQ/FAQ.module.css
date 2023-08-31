@@ -1,0 +1,79 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    justify-self: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.faq p {
+    color: var(--Cinza);
+    width: 45%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.faq ul {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    list-style-type: none;
+    border-bottom: 1px solid #d9dbe1;
+    padding: 0;
+}
+
+.faq .liPerguntas label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    border-top: 1px solid #d9dbe1;
+}
+
+.faq .liPerguntas label:hover {
+    color: var(--Vermelho);
+    cursor: pointer;
+}
+
+.faq div {
+    margin: 50px 0;
+}
+
+@media screen and (max-width:1100px) {
+
+    .faq .tituloFaq {
+        font-size: 28px;
+    }
+
+    .faq .paragrafoFaq {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .faq ul {
+        width: 100%;
+    }
+
+    .faq .liPerguntas label {
+        font-size: 14px;
+        font-weight: 500;
+        display: grid;
+        grid-template-columns: 1fr 10%;
+        align-items: center;
+    }
+
+    .faq .liPerguntas .iconeSeta {
+        margin: 0 10px;
+        font-size: 20px;
+    }
+}

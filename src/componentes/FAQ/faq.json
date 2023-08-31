@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "pergunta": "O que é favoritos?",
+        "resposta": "Favoritos é um recurso em que você pode salvar sites que você precise acessar futuramente. Nesse caso quando você precisar, é só acessar os favoritos e clicar no site em que salvou anteriormente."
+    },
+    {
+        "id": "2",
+        "pergunta": "Como eu posso solicitar um novo navegador?",
+        "resposta": "Procure no google o site oficial do navegador que deseja instalar, e siga os passos mostrados por la."
+    },
+    {
+        "id": "3",
+        "pergunta": "Exite um app para smartphones?",
+        "resposta": "Sim, temos um aplicativo nas plataformas Android e iOS. Acesse as loja de sua preferencia e pesquise por Bookmark"
+    },
+    {
+        "id": "4",
+        "pergunta": "E quanto a outros navegadores Chromium?",
+        "resposta": "Ainda não temos suporte para outros navegadores alem dos informados na pagina, mas em breve teremos novidades."
+    }
+]

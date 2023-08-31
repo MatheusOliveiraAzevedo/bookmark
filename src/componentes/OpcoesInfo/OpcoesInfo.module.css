@@ -1,0 +1,45 @@
+.containerOpcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+
+.containerOpcoes .botaoOpcoes {
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: var(--Cinza);
+    padding: 30px 50px;
+    border-bottom: 1px solid #d5d7de;
+    margin: 50px 0;
+    background-color: inherit;
+}
+
+.containerOpcoes .botaoOpcoes:hover {
+    color: var(--Vermelho);
+    cursor: pointer;
+}
+
+.containerOpcoes .botaoSelecionado {
+    border-bottom: 5px solid red;
+}
+
+.containerOpcoes .containerConteudoOpcoes {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:1100px) {
+    .containerItem {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .containerItem .botaoOpcoes {
+        margin: 0;
+        padding: 20px;
+    }
+}

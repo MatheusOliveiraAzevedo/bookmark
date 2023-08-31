@@ -1,0 +1,41 @@
+.containerConteudo {
+    display: grid;
+    justify-items: center;
+    position: static;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    height: auto;
+}
+
+.containerConteudo h2 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.containerConteudo p {
+    color: var(--Cinza);
+}
+
+.containerConteudo .textoContainer {
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width:1100px) {
+
+    .containerConteudo {
+        margin-top: 40px;
+    }
+
+    .containerConteudo h2 {
+        font-size: 28px;
+    }
+
+    .containerConteudo .textoContainer {
+        font-size: 16px;
+        width: 80%;
+    }
+}
